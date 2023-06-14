@@ -8,15 +8,14 @@ import Pricing from "./components/Pricing";
 export default () => {
   return (
     <div>
-      hello
-      {/* <StylesProvider>
+      <StylesProvider>
         <BrowserRouter>
           <Switch>
             <Route exact path="/pricing" component={Pricing}></Route>
             <Route exact path="/" component={Landing}></Route>
           </Switch>
         </BrowserRouter>
-      </StylesProvider> */}
+      </StylesProvider>
     </div>
   );
 };
